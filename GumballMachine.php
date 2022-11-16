@@ -4,8 +4,8 @@ class GumballMachine {
 
 	private $gumballs;
 	
-	public function getGumballs() {
-		return $this->gumballs;
+	public function turnWheel() {
+  	$this->setGumballs($this->getGumballs()-2);
 	}
 	
 	public function setGumballs($amount) {
